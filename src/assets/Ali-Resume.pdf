@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali Rizvi - Oracle Database Administrator | Web3 & Backend Developer</title>
+    <meta name="description" content="Enterprise Oracle DBA & Web3 developer specializing in scalable database systems, blockchain applications, and backend solutions. Available for high-value consulting engagements." />
+    <meta name="author" content="Ali Rizvi" />
+    <meta name="keywords" content="Oracle DBA, Database Administrator, Web3 Developer, Blockchain, Backend Developer, Enterprise Consulting, RMAN, PL/SQL, Smart Contracts" />
+    <link rel="canonical" href="https://alirizvi.dev" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alirizvi.dev" />
+    <meta property="og:title" content="Ali Rizvi - Oracle DBA & Web3 Developer | Enterprise Consulting" />
+    <meta property="og:description" content="Passionate about building scalable database systems, blockchain-powered apps, and modern backend solutions. Available for enterprise consulting and high-value contracts." />
+    <meta property="og:image" content="https://alirizvi.dev/og-image.jpg" />
+    <meta property="og:site_name" content="Ali Rizvi Portfolio" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://alirizvi.dev" />
+    <meta property="twitter:title" content="Ali Rizvi - Oracle DBA & Web3 Developer" />
+    <meta property="twitter:description" content="Enterprise Oracle Database Administrator and Web3/Backend Developer. Specializing in scalable systems and blockchain applications." />
+    <meta property="twitter:image" content="https://alirizvi.dev/og-image.jpg" />
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ali Rizvi",
+      "jobTitle": "Oracle Database Administrator & Web3 Developer",
+      "description": "Passionate about building scalable database systems, blockchain-powered apps, and modern backend solutions",
+      "url": "https://alirizvi.dev",
+      "image": "https://alirizvi.dev/ali-rizvi-hero.jpg",
+      "email": "the.er.alirizvi@gmail.com",
+      "telephone": "+91 7084096364",
+      "sameAs": [
+        "https://www.linkedin.com/in/alirizvi110",
+        "https://github.com/Alirizvi11",
+        "https://x.com/alirizvi9936",
+        "https://www.instagram.com/alisyed11_"
+      ],
+      "knowsAbout": [
+        "Oracle Database Administration",
+        "Web3 Development",
+        "Blockchain Technology",
+        "Backend Development",
+        "Database Performance Tuning",
+        "Smart Contracts"
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Dr. A.P.J. Abdul Kalam Technical University"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pune",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx?t=1758427219190"></script>
+  </body>
+</html>
