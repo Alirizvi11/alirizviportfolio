@@ -297,7 +297,7 @@ const ServicesSection = () => {
             </a>
           </Button>
             <Button asChild variant="outline" className="glass-card hover-glow px-8 py-4 border-card-border">
-             <a href="/src/assets/Services_Overview.pdf" download="Services_Overview.pdf">
+             <a href="public/Services_Overview.pdf" download="Services_Overview.pdf">
               Download Service Overview
              </a>
             </Button>
