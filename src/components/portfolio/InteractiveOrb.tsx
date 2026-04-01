@@ -351,6 +351,17 @@ const InteractiveOrb = () => {
           y: [10, -10, 10],
           rotate: [0, -5, 0, 5, 0]
         }}
+        transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+        whileHover={{ scale: 1.1, y: 20 }}
+        className="absolute -bottom-8 -right-8 glass-card px-4 py-2 rounded-full text-sm font-medium border border-primary/30 hover:border-primary/60 transition-all cursor-pointer"
+      >
+        Full Stack Development
+      </motion.div>
+      <motion.div
+        animate={{ 
+          y: [10, -10, 10],
+          rotate: [0, -5, 0, 5, 0]
+        }}
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 2 }}
         whileHover={{ scale: 1.1, y: 20 }}
         className="absolute -bottom-8 -left-8 glass-card px-4 py-2 rounded-full text-sm font-medium border border-secondary/30 hover:border-secondary/60 transition-all cursor-pointer"

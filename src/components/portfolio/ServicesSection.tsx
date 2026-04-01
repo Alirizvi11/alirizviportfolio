@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Database, Shield, Blocks, Code, ArrowRight, Star } from "lucide-react";
+import { Database, Shield, Blocks, Code, ArrowRight, Star ,Code2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ServicesSection = () => {
@@ -34,20 +34,35 @@ const ServicesSection = () => {
       highlight: "Security-first approach",
       color: "secondary"
     },
+    // {
+    //   icon: Shield,
+    //   title: "Security & VAPT Services",
+    //   description: "Comprehensive vulnerability assessment and penetration testing for applications",
+    //   features: [
+    //     "Application security assessment",
+    //     "Database security auditing",
+    //     "Smart contract security reviews",
+    //     "Compliance reporting (SOX, GDPR)",
+    //     "Remediation guidance & support"
+    //   ],
+    //   pricing: "Security assessments from $100+",
+    //   highlight: "OWASP certified methodology",
+    //   color: "accent"
+    // },
     {
-      icon: Shield,
-      title: "Security & VAPT Services",
-      description: "Comprehensive vulnerability assessment and penetration testing for applications",
-      features: [
-        "Application security assessment",
-        "Database security auditing",
-        "Smart contract security reviews",
-        "Compliance reporting (SOX, GDPR)",
-        "Remediation guidance & support"
+     icon: Code2,
+     title: "Full Stack Development",
+     description: "End-to-end web application development from intuitive frontends to robust backend systems",
+     features: [
+           "Responsive UI/UX with React & Next.js",
+           "RESTful APIs & GraphQL backends",
+           "Database design & optimization",
+           "Cloud deployment (AWS, Vercel, Railway)",
+           "Performance tuning & SEO optimization"
       ],
-      pricing: "Security assessments from $100+",
-      highlight: "OWASP certified methodology",
-      color: "accent"
+     pricing: "Web projects starting from $200+",
+     highlight: "Modern tech stack, clean architecture",
+     color: "primary"
     },
     {
       icon: Code,
@@ -166,12 +181,22 @@ const ServicesSection = () => {
                 <p className="text-sm font-medium text-primary mb-3">
                   {service.pricing}
                 </p>
-                <Button 
+                {/* <Button 
                   variant="outline" 
                   className="glass-card hover-glow w-full border-card-border group-hover:border-primary/50 transition-colors"
                 >
                   Discuss Project Requirements
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button> */}
+                <Button 
+                    asChild
+                   variant="outline" 
+                    className="glass-card hover-glow w-full border-card-border group-hover:border-primary/50 transition-colors"
+                   >
+                  <a href="#contact">
+                   Discuss Project Requirements
+                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  </a>
                 </Button>
               </div>
             </motion.div>
@@ -265,15 +290,16 @@ const ServicesSection = () => {
             Let's discuss how we can build scalable, secure solutions that drive real business value for your enterprise.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="btn-neon px-8 py-4">
-              Schedule Strategy Call
-              <ArrowRight className="w-4 h-4 ml-2" />
-            </Button>
-            <Button 
-              variant="outline" 
-              className="glass-card hover-glow px-8 py-4 border-card-border"
-            >
+          <Button asChild className="btn-neon px-8 py-4">
+            <a href="https://calendly.com/alirizvi11" target="_blank" rel="noopener noreferrer">
+            Schedule Strategy Call
+            <ArrowRight className="w-4 h-4 ml-2" />
+            </a>
+          </Button>
+            <Button asChild variant="outline" className="glass-card hover-glow px-8 py-4 border-card-border">
+             <a href="/src/assets/Services_Overview.pdf" download="Services_Overview.pdf">
               Download Service Overview
+             </a>
             </Button>
           </div>
         </motion.div>

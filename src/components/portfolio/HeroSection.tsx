@@ -45,7 +45,7 @@ const HeroSection = () => {
                   Oracle Database Administrator
                 </h2>
                 <h3 className="text-xl lg:text-2xl text-secondary">
-                  Web3 & Backend Developer
+                  Web3 & Full Stack Developer
                 </h3>
               </motion.div>
             </div>

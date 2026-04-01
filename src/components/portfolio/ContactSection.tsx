@@ -129,14 +129,14 @@ const ContactSection = () => {
     {
       title: "Web3 Development",
       description: "Smart contract development and blockchain integration",
-      startingPrice: "From ₹5000",
+      startingPrice: "From ₹10000",
       features: ["Smart contract audit", "dApp development", "Wallet integration", "Testing suite"]
     },
     {
-      title: "Enterprise VAPT",
-      description: "Comprehensive security assessment and penetration testing",
-      startingPrice: "From ₹5000",
-      features: ["Vulnerability scanning", "Penetration testing", "Security report", "Remediation plan"]
+      title: "Full Stack Development",
+      description: "End-to-end web application development from frontend to backend",
+      startingPrice: "From ₹20000",
+      features: ["React & Next.js UI", "REST API & GraphQL", "Database design", "Cloud deployment"]
     }
   ];
 
