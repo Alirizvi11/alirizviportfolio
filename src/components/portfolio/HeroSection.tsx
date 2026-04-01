@@ -69,7 +69,7 @@ const HeroSection = () => {
               className="flex flex-wrap gap-4"
             >
               <Button asChild className="btn-neon group">
-                <a href="public/Ali-Resume.pdf" download>
+                <a href="/Ali-Resume.pdf" download>
                   <Download className="w-4 h-4 mr-2 group-hover:animate-bounce" />
                   Download Resume
                 </a>
